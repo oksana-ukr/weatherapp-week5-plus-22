@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WeatherApp</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <script
+      src="https://kit.fontawesome.com/9887c0fa39.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    ;
+  </head>
+  <body>
+    <div class="box">
+      <nav class="navigation-main">
+        <div class="search">
+          <form class="search-form" id="search-form">
+            <input
+              id="show-city"
+              type="search"
+              placeholder="Enter your city"
+              autocomlete="off"
+              autofocus="on"
+              class="form"
+            />
+            <button class="search-city">🔍</button>
+            <button class="current-location-button">Current</button>
+          </form>
+        </div>
+
+        <div class="cities">
+          <ul>
+            <li>
+              <a href="#" class="city"> For today </a>
+            </li>
+            <li>
+              <a href="#" class="city"> 5 days </a>
+            </li>
+            <li>
+              <a href="#" class="city"> 14 days </a>
+            </li>
+            <li>
+              <a href="#" class="city"> 1 month </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <h1>
+        ✨In any kind of weather: sun, rain, wind or snow, gift yourself and
+        people smiles✨
+      </h1>
+
+      <div class="transcription">
+        <p class="geolocation"><span id="type-city">Odessa, Ukraine</span></p>
+        <span id="time"></span>
+        <h2>
+          <i class="fa-solid fa-cloud-sun"></i><br />
+          Day 29° |
+          <span class="units">
+            <a href="#" id="celsius-link">°C</a> |
+            <a href="#" id="fahrenheit-link">°F</a>
+          </span>
+        </h2>
+        <div class="definition">
+          <p class="feels">
+            Reel feels like: 29°C; Precipitation: 30%; Wind: 2km/h
+          </p>
+        </div>
+      </div>
+
+      <table>
+        <tr>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+        </tr>
+
+        <tr>
+          <td>
+            <i class="fa-solid fa-cloud"></i>
+          </td>
+          <td>
+            <i class="fa-solid fa-cloud-sun"></i>
+          </td>
+          <td>
+            <i class="fa-solid fa-cloud-sun-rain"></i>
+          </td>
+          <td><i class="fa-solid fa-cloud-sun"></i></td>
+          <td><i class="fa-solid fa-cloud-sun"></i></td>
+        </tr>
+
+        <div class="add">
+          <tr>
+            <td class="add-b">29°</td>
+            <td class="add-b">29°</td>
+            <td class="add-b">30°</td>
+            <td class="add-b">28°</td>
+            <td class="add-b">28°</td>
+          </tr>
+
+          <tr>
+            <td class="add-b">20°</td>
+            <td class="add-b">20°</td>
+            <td class="add-b">21°</td>
+            <td class="add-b">20°</td>
+            <td class="add-b">20°</td>
+          </tr>
+        </div>
+      </table>
+
+      <h3>✨Take care of yourself✨</h3>
+      <footer>
+        <span class="contact-platform">
+          © 2022 Made by
+          <a
+            href="https://www.instagram.com/psychologynia_ok/"
+            alt="instagram"
+            class="contact"
+            >Oksana Kostiuk 🌞</a
+          >
+        </span>
+      </footer>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,271 @@
+body {
+  font-family: sans-serif;
+  background: linear-gradient(
+    178.6deg,
+    rgb(232, 245, 253) 3.3%,
+    rgb(252, 253, 255) 109.6%
+  );
+  text-align: center;
+  color: rgb(93, 116, 248);
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+  border-style: dotted;
+}
+
+h1:hover {
+  border-radius: 5px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(254, 255, 165) 0%,
+    rgb(255, 232, 182) 90%
+  );
+}
+
+h2:hover {
+  border-radius: 5px;
+  background: linear-gradient(
+    178.6deg,
+    rgb(232, 245, 253) 3.3%,
+    rgb(252, 253, 255) 109.6%
+  );
+}
+
+h3:hover {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(254, 255, 165) 0%,
+    rgb(255, 232, 182) 90%
+  );
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  padding: 10px;
+}
+
+a {
+  color: rgb(93, 116, 248);
+}
+
+a:hover {
+  border-radius: 5px;
+  background: linear-gradient(
+    178.6deg,
+    rgb(232, 245, 253) 3.3%,
+    rgb(252, 253, 255) 109.6%
+  );
+}
+
+tr {
+  color: rgb(93, 116, 248);
+  transition: all 200ms ease-in-out;
+}
+
+i {
+  color: rgb(255, 255, 0);
+  max-width: 100px;
+  background-color: rgb(93, 116, 248);
+  border-radius: 5px;
+}
+
+button.search-city {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(254, 255, 165) 0%,
+    rgb(255, 232, 182) 90%
+  );
+  padding: 10px;
+  border: 1px solid rgb(93, 116, 248);
+  border-radius: 5px;
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    178.6deg,
+    rgb(232, 245, 253) 3.3%,
+    rgb(252, 253, 255) 109.6%
+  );
+}
+
+.current-location-button {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(254, 255, 165) 0%,
+    rgb(255, 232, 182) 90%
+  );
+  padding: 10px;
+  color: rgb(93, 116, 248);
+  border: 1px solid rgb(93, 116, 248);
+  border-radius: 5px;
+  transition: all 200ms ease-in-out;
+}
+
+table {
+  margin: 0 auto;
+  padding: 8px;
+  border-spacing: 20px;
+  transition: all 200ms ease-in-out;
+}
+
+th {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(254, 255, 165) 0%,
+    rgb(255, 232, 182) 90%
+  );
+  padding-top: 10px;
+  border-radius: 5px;
+  transition: all 200ms ease-in-out;
+}
+
+td {
+  font-size: 26px;
+  transition: all 200ms ease-in-out;
+}
+
+footer {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(254, 255, 165) 0%,
+    rgb(255, 232, 182) 90%
+  );
+  border-width: 5px;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+th:hover {
+  background: linear-gradient(
+    178.6deg,
+    rgb(232, 245, 253) 3.3%,
+    rgb(252, 253, 255) 109.6%
+  );
+  border-radius: 5px;
+}
+
+td:hover {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(254, 255, 165) 0%,
+    rgb(255, 232, 182) 90%
+  );
+  border-radius: 5px;
+}
+
+p:hover {
+  background: linear-gradient(
+    178.6deg,
+    rgb(232, 245, 253) 3.3%,
+    rgb(252, 253, 255) 109.6%
+  );
+  border-radius: 5px;
+}
+
+p.night {
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+  border-style: dotted;
+}
+
+a.contact:hover {
+  border-radius: 5px;
+  background: linear-gradient(
+    178.6deg,
+    rgb(232, 245, 253) 3.3%,
+    rgb(252, 253, 255) 109.6%
+  );
+}
+
+contact-platform:hover {
+  background: linear-gradient(
+    178.6deg,
+    rgb(232, 245, 253) 3.3%,
+    rgb(252, 253, 255) 109.6%
+  );
+}
+
+p.geolocation:hover {
+  background: linear-gradient(
+    178.6deg,
+    rgb(232, 245, 253) 3.3%,
+    rgb(252, 253, 255) 109.6%
+  );
+  border-radius: 5px;
+}
+
+.navigation-main {
+  display: flex;
+  justify-content: center;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(254, 255, 165) 0%,
+    rgb(255, 232, 182) 90%
+  );
+}
+
+.city {
+  padding: 10px 15px;
+}
+
+.search {
+  margin-left: 10px;
+}
+
+.form {
+  margin: 20px 10px;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.box {
+  border: 1px solid rgb(93, 116, 248);
+  border-radius: 3px;
+}
+
+.add-b {
+  border-radius: 5px;
+  border-style: dotted;
+}
+
+.ammount {
+  margin-left: 200px;
+}
+
+.transcription {
+  color: rgb(93, 116, 248);
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(254, 255, 165) 0%,
+    rgb(255, 232, 182) 90%
+  );
+  border: 1px solid rgb(93, 116, 248);
+  border-radius: 30px;
+  width: 50%;
+  padding: 5px;
+  margin: auto;
+  box-shadow: 5px 5px 5px rgb(93, 116, 248);
+}
+
+.feels {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-platform {
+  text-align: center;
+  font-size: 14px;
+  display: block;
+  margin: 0 auto;
+}
